@@ -1,3 +1,5 @@
+// animaciones y botones del hero section de Index.html
+
 (function () {
   const canvas = document.getElementById('heroCanvas');
   if (!canvas) return;
