@@ -56,17 +56,19 @@
         </p>
         <div class="tool-links">
           <a href="documentacion/Documentacion-Meditador-Bolsillo.pdf" target="_blank" class="tool-link">Documentación</a>
-          <a href="https://github.com/heartenic" target="_blank" class="tool-link secondary">GitHub</a>
+          <a href="https://github.com/Heartenic/Meditador-Arduino" target="_blank" class="tool-link secondary">GitHub</a>
         </div>
       </div>
       
       <div class="tool-card">
-        <span class="tool-icon">📚</span>
-        <h3>Guías de Bienestar</h3>
+        <span class="tool-icon">🧠</span>
+        <h3>Human Tech Principles</h3>
         <p>
-          Recursos educativos sobre mindfulness, meditación y salud mental.
-          Contenido curado por expertos para desarrolladores y creadores.
+        Guía abierta sobre cómo diseñar tecnología que respete la atención,
+        la autonomía y el bienestar del usuario. Un conjunto de principios
+        para desarrolladores que quieren crear tecnología más humana.
         </p>
+
         <div class="tool-links">
           <a href="#" class="tool-link">Próximamente</a>
         </div>
@@ -82,7 +84,7 @@
         <div class="api-info">
           <h3>API REST Gratuita</h3>
           <p>
-            Accede a miles de frases motivacionales, afirmaciones y mensajes de bienestar a través de endpoints simples.
+            Accede a cientos de frases motivacionales, afirmaciones y mensajes de bienestar a través de endpoints simples.
             Sin necesidad de autenticación para uso básico.
           </p>
           
@@ -99,56 +101,20 @@
         
         <div class="code-example">
           <div class="code-header">
-            <span class="code-label">Ejemplo de uso</span>
-            <button class="copy-btn" data-code="fetch('https://positive-api.online/api/random')\n  .then(res => res.json())\n  .then(data => console.log(data.quote));">
+            <span class="code-label">Ejemplo de uso (CMD)</span>
+            <button class="copy-btn" data-code='curl -X GET "https://positive-api.online/phrase/esp"'>
               <i class="fas fa-copy"></i> Copiar
             </button>
           </div>
-          <pre class="code-block"><span class="keyword">fetch</span>(<span class="string">'https://positive-api.online/api/random'</span>)
-  .<span class="keyword">then</span>(res => res.json())
-  .<span class="keyword">then</span>(data => console.log(data.quote));</pre>
+          <pre class="code-block"><span class="keyword">curl</span> -X GET <span class="string">"https://positive-api.online/phrase/esp"</span></pre>
         </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="resources-section">
-    <h2 class="section-title">Recursos Adicionales</h2>
-    
-    <div class="resources-grid">
-      <div class="resource-card">
-        <span class="resource-icon">🛠️</span>
-        <h4>Hardware Abierto</h4>
-        <p>Esquemáticos y diseños PCB del Meditador</p>
-        <a href="#" class="resource-link">Descargar</a>
-      </div>
-      
-      <div class="resource-card">
-        <span class="resource-icon">💻</span>
-        <h4>Código Fuente</h4>
-        <p>Firmware completo y librerías ESP32</p>
-        <a href="https://github.com/heartenic" target="_blank" class="resource-link">Ver en GitHub</a>
-      </div>
-      
-      <div class="resource-card">
-        <span class="resource-icon">🎨</span>
-        <h4>Assets de Diseño</h4>
-        <p>Logos, iconos y guías de marca</p>
-        <a href="#" class="resource-link">Próximamente</a>
-      </div>
-      
-      <div class="resource-card">
-        <span class="resource-icon">📹</span>
-        <h4>Tutoriales en Video</h4>
-        <p>Guías paso a paso en nuestro canal</p>
-        <a href="https://www.youtube.com/@Heartenic" target="_blank" class="resource-link">Ver Videos</a>
       </div>
     </div>
   </section>
 
   <!-- Footer -->
   <div class="footer">
-    <p style="font-size: 1.2rem; margin: 0;"> 2026 Heartenic</p>
+    <p style="font-size: 1.2rem; margin: 0;">© 2026 Heartenic</p>
 
     <div class="social-icons-footer">
       <a href="https://www.instagram.com/heartenic/" target="_blank" class="social-icon-link-footer">

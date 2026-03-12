@@ -223,7 +223,7 @@ body {
 .api-section {
   padding: 100px 5%;
   background: linear-gradient(135deg, rgba(208, 51, 96, 0.04) 0%, rgba(244, 173, 192, 0.1) 100%);
-  margin: 80px 0;
+  padding-bottom: 180px;
 }
 
 .api-container {
@@ -337,70 +337,6 @@ body {
 .code-block .comment {
   color: #6B8E68;
   font-style: italic;
-}
-
-.resources-section {
-  padding: 100px 5%;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.resources-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 30px;
-  margin-top: 60px;
-}
-
-.resource-card {
-  background: rgba(255, 255, 255, 0.6);
-  backdrop-filter: blur(20px);
-  padding: 32px;
-  border-radius: 20px;
-  border: 1px solid rgba(208, 51, 96, 0.15);
-  transition: all 0.3s ease;
-  text-align: center;
-}
-
-.resource-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.1);
-}
-
-.resource-icon {
-  font-size: 40px;
-  margin-bottom: 16px;
-  display: block;
-}
-
-.resource-card h4 {
-  font-size: 20px;
-  font-weight: 700;
-  margin-bottom: 12px;
-  color: var(--dark-gray);
-}
-
-.resource-card p {
-  font-size: 14px;
-  color: var(--medium-gray);
-  margin-bottom: 20px;
-}
-
-.resource-link {
-  display: inline-block;
-  padding: 8px 20px;
-  background: var(--rose-primary);
-  color: white;
-  text-decoration: none;
-  border-radius: 8px;
-  font-size: 14px;
-  font-weight: 600;
-  transition: all 0.3s ease;
-}
-
-.resource-link:hover {
-  background: var(--rose-dark);
-  transform: translateY(-2px);
 }
 
 @media (max-width: 1024px) {

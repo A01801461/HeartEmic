@@ -350,50 +350,11 @@ body {
   color: var(--medium-gray);
 }
 
-.specs-section {
-  padding: 120px 5%;
-  background: linear-gradient(135deg, rgba(208, 51, 96, 0.04) 0%, rgba(244, 173, 192, 0.12) 100%);
-}
-
-.specs-container {
-  max-width: 1200px;
+.cto-section {
   margin: 0 auto;
-}
-
-.specs-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 30px;
-  margin-top: 60px;
-}
-
-.spec-item {
-  background: rgba(255, 255, 255, 0.6);
-  backdrop-filter: blur(20px);
-  padding: 32px;
-  border-radius: 20px;
-  border: 1px solid rgba(208, 51, 96, 0.15);
-  transition: all 0.3s ease;
-}
-
-.spec-item:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.1);
-}
-
-.spec-label {
-  font-size: 14px;
-  font-weight: 600;
-  color: var(--rose-primary);
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  margin-bottom: 8px;
-}
-
-.spec-value {
-  font-size: 22px;
-  font-weight: 700;
-  color: var(--dark-gray);
+  padding: 100px 5%;
+  background: linear-gradient(135deg, rgba(208, 51, 96, 0.04) 0%, rgba(244, 173, 192, 0.12) 100%);
+  padding-bottom: 150px;
 }
 
 @media (max-width: 1024px) {

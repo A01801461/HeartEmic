@@ -601,6 +601,7 @@ h2 {
   padding: 100px 5%;
   max-width: 1000px;
   margin: 0 auto;
+  padding-bottom: 150px;
 }
 
 .roadmap-title {
@@ -710,6 +711,16 @@ h2 {
   font-size: 15px;
   color: var(--medium-gray);
   line-height: 1.6;
+}
+
+.timeline-list {
+  margin-top: 10px;
+  padding-left: 18px;
+  line-height: 1.6;
+}
+
+.timeline-list li {
+  margin-bottom: 6px;
 }
 
 @media (max-width: 768px) {
