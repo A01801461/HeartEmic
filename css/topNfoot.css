@@ -22,7 +22,7 @@
 }
 
 .barra-superior .logo {
-  height: 64px;
+  height: 75px;
   transition: transform 0.3s ease;
   filter: drop-shadow(0 2px 8px rgba(208, 51, 96, 0.18));
 }
@@ -32,7 +32,7 @@
 }
 
 .barra-superior h1 {
-  font-size: 32px;
+  font-size: 36px;
   font-weight: 800;
   color: var(--rose-dark);
   letter-spacing: -0.8px;
